@@ -1,5 +1,12 @@
 
 <script >
+const plugin = document.createElement("script");
+plugin.setAttribute(
+  "src",
+  "/src/assets/main2.js"
+);
+plugin.async = true;
+document.head.appendChild(plugin);
 
 export default{
   setup() {
